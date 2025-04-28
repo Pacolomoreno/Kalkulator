@@ -20,24 +20,24 @@ public class Calculator
     private double Resultado;
     private string? Opera = "+";
     private List<double>? Numbers = new List<double> { };
-    public void Suma(double sum1, double sum2)
+    public void Suma(double num1, double num2)
     {
-        Resultado = sum1 + sum2;
+        Resultado = num1 + num2;
     }
 
-    public void Resta(double sum1, double sum2)
+    public void Resta(double num1, double num2)
     {
-        Resultado = sum1 - sum2;
+        Resultado = num1 - num2;
     }
 
-    public void Multiplica(double sum1, double sum2)
+    public void Multiplica(double num1, double num2)
     {
-        Resultado = sum1 * sum2;
+        Resultado = num1 * num2;
     }
 
-    public void Divide(double sum1, double sum2)
+    public void Divide(double num1, double num2)
     {
-        Resultado = sum1 / sum2;
+        Resultado = num1 / num2;
     }
 
 
